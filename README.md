@@ -48,7 +48,7 @@ $ npm run dev
 | ------ | -------------- | --------------------------------- | -------------------------------------- |
 | GET    | /api/v2/flickr | ?tags=[optionalTag1,optionalTag2] | Get flicker public feed in JSON format |
 
-# Development and testing
+## Development and testing
 
 Running in development environment:
 
