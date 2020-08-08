@@ -1,4 +1,4 @@
-const { NODE_ENV } = process.env.NODE_ENV;
+const { NODE_ENV } = process.env;
 const ErrorHandler = (err, req, res) => {
   // eslint-disable-next-line no-console
   console.error(err);
