@@ -10,6 +10,10 @@ if (app.get('env') === 'production') {
   app.use(logger('dev'));
 }
 
+app.get('/', (req, res) => {
+  res.send('Server is running...');
+});
+
 app.use('/api/v1', API_V1);
 app.use(ErrorHandler);
 
