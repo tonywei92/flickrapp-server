@@ -41,6 +41,7 @@ const parseFlickrFeed = (data) =>
       resolve(result);
     });
   });
+
 const getFlickrPublicPhotoFeed = async (tags) => {
   const response = await axios.get(`?${querystring.stringify({ tags })}`);
   const { data } = response;
