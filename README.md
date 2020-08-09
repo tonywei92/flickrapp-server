@@ -1,5 +1,7 @@
 # Flickr App Server
 
+![Heroku](https://heroku-badge.herokuapp.com/?app=flickerapp-server)
+
 Flickr App Server is an Node.js Express Server providing (currently) [Flickr Public Feed](https://www.flickr.com/services/feeds/docs/photos_public/).
 
 ## Installation
