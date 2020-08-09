@@ -26,6 +26,7 @@ const parseFlickrFeed = (data) =>
       entries.forEach((entry) => {
         // recreate structure based on needs
         result.data.push({
+          id: entry.id[0].match(/\d+$/)[0],
           title: entry.title[0],
           flickr_link: entry.link[0].$.href,
           direct_link: entry.link[1].$.href,
