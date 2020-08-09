@@ -58,7 +58,7 @@ or
 $ npm run dev
 ```
 
-Tests is available for unit and integration test, run with following command:
+Tests is available for unit and End-to-end test, run with following command:
 
 ```bash
 $ yarn test:watch
